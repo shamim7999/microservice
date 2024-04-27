@@ -1,0 +1,12 @@
+server:
+  port: 8082
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/microservice
+      authentication-database: admin
+      username: admin
+      password: root
+      database: microservice
+      auto-index-creation: true
