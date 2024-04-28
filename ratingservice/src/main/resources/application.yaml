@@ -4,9 +4,5 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/microservice
-      authentication-database: admin
-      username: admin
-      password: root
+      uri: mongodb://172.17.0.4:27017
       database: microservice
-      auto-index-creation: true

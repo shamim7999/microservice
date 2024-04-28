@@ -27,4 +27,6 @@ public class UserController {
     public ResponseEntity<?> getAllUsers() {
         return ResponseEntity.ofNullable(userService.getAllUser());
     }
+
+
 }
